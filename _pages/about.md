@@ -6,7 +6,7 @@ subtitle: University of Colorado Boulder
 
 profile:
   align: right
-  image: prof_pic_mc.jpg
+  image: prof_pic_mc.JPG
   image_circular: false # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
