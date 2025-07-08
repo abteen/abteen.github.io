@@ -6,7 +6,7 @@ subtitle: University of Colorado Boulder
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_mc.jpg
   image_circular: false # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -19,8 +19,4 @@ announcements:
 
 ---
 
-Wwrite your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Hi! I'm a final year PhD student studying Computer Science at the University of Colorado Boulder, advised by Professor Katharina von der Wense. My research focuses on multilingual natural language processing, with a focus on cross-lingual transfer and low-resource languages. At CU, I have been a teaching assistant for graduate and undergraduate NLP, Algorithms, and Data Structures; in Spring 2025 I co-instructed the undergraduate NLP course. In addition to my work at CU, I've had the privilege of being a co-organizer of the AmericasNLP Workshops and Shared Tasks since their inception in 2020. I have also served as a co-chair for the NAACL Student Research Workshop in 2025. In the summer of 2023, I participated in JSALT, held in Le Mans, France as a member of the Better Together team. In Spring of 2024, I was lucky to work as a Student Researcher at Google, working on developing novel multicultural and geospatial evaluations for Gemini. Prior to starting my PhD at Boulder, I studied Computer Science and Math at UC Santa Cruz, and started learning about and conducting research in NLP. Here, I worked with Professor Lyn Walker at the Natural Language and Dialogue Systems Lab, and contributed to projects focused on Dialogue Systems and Natural Language Generation. Since moving to Boulder, I've enjoyed skiing and riding my bike whenever possible. 
