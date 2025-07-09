@@ -13,6 +13,7 @@
       title={Athena: {C}onstructing {D}ialogues Dynamically with Discourse Constraints.}, 
       author={Vrindavan Harrison and Juraj Juraska and Wen Cui and Lena Reed and Kevin K. Bowden and Jiaqi Wu and Brian Schwarzmann and Ebrahimi, Abteen and Rishi Rajasekaran and Nikhil Varghese and Max Wechsler-Azen and Steve Whittaker and Jeffrey Flanigan and Marilyn Walker},
       year={2020},
+      booktitle={arXiv.},
 }
 
 @inproceedings{ebrahimi-kann-2021-adapt,
@@ -22,6 +23,7 @@
     year = "2021",
     publisher = "Association for Computational Linguistics",
     booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing",
+    selected = {true},
 }
 
 @inproceedings{mager-etal-2021-findings,
@@ -72,6 +74,7 @@
     year = "2022",
     publisher = "Association for Computational Linguistics",
     abstract = "Pretrained multilingual models are able to perform cross-lingual transfer in a zero-shot setting, even for languages unseen during pretraining. However, prior work evaluating performance on unseen languages has largely been limited to low-level, syntactic tasks, and it remains unclear if zero-shot learning of high-level, semantic tasks is possible for unseen languages. To explore this question, we present AmericasNLI, an extension of XNLI (Conneau et al., 2018) to 10 Indigenous languages of the Americas. We conduct experiments with XLM-R, testing multiple zero-shot and translation-based approaches. Additionally, we explore model adaptation via continued pretraining and provide an analysis of the dataset by considering hypothesis-only models. We find that XLM-R{'}s zero-shot performance is poor for all 10 languages, with an average performance of 38.48{\%}. Continued pretraining offers improvements, with an average accuracy of 43.85{\%}. Surprisingly, training on poorly translated data by far outperforms all other methods with an accuracy of 49.12{\%}.",
+    selected = {true},
 }
 
 @inproceedings{kann-etal-2022-open,
@@ -82,7 +85,7 @@
       Shiran Dudy  and
       Alessandro Roncone",
     booktitle = "Proceedings of the 4th Workshop on NLP for Conversational AI",
-    month = may,
+    month = {May},
     year = "2022",
     address = "Dublin, Ireland",
     publisher = "Association for Computational Linguistics",
@@ -96,7 +99,7 @@
       Kristine Stenzel  and
       Alexis Palmer",
     booktitle = "Proceedings of the First Workshop on NLP Applications to Field Linguistics",
-    month = oct,
+    month = {Oct},
     year = "2022",
     address = "Gyeongju, Republic of Korea",
     publisher = "Association for Computational Linguistics",
@@ -114,11 +117,12 @@
       Coto-Solano, Rolando  and
       Kann, Katharina",
     booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
-    month = may,
+    month = {May},
     year = "2023",
     address = "Dubrovnik, Croatia",
     publisher = "Association for Computational Linguistics",
     abstract = "Large multilingual models have inspired a new class of word alignment methods, which work well for the model{'}s pretraining languages. However, the languages most in need of automatic alignment are low-resource and, thus, not typically included in the pretraining data. In this work, we ask: How do modern aligners perform on unseen languages, and are they better than traditional methods? We contribute gold-standard alignments for Bribri{--}Spanish, Guarani{--}Spanish, Quechua{--}Spanish, and Shipibo-Konibo{--}Spanish. With these, we evaluate state-of-the-art aligners with and without model adaptation to the target language. Finally, we also evaluate the resulting alignments extrinsically through two downstream tasks: named entity recognition and part-of-speech tagging. We find that although transformer-based methods generally outperform traditional models, the two classes of approach remain competitive with each other.",
+      selected = {true},
 }
 
 @inproceedings{ebrahimi-etal-2023-findings,
@@ -137,11 +141,12 @@
       Palmer, Alexis  and
       Kann, Katharina",
     booktitle = "Proceedings of the Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP)",
-    month = jul,
+    month = {July},
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
     abstract = "In this work, we present the results of the AmericasNLP 2023 Shared Task on Machine Translation into Indigenous Languages of the Americas. This edition of the shared task featured eleven language pairs, one of which {--} Chatino-Spanish {--} uses a newly collected evaluation dataset, consisting of professionally translated text from the legal domain. Seven teams participated in the shared task, with a total of 181 submissions. Additionally, we conduct a human evaluation of the best system outputs, and compare them to the best submissions from the prior shared task. We find that this analysis agrees with the quantitative measures used to rank submissions, which shows further improvements of 9.64 ChrF on average across all languages, when compared to the prior winning system.",
+    selected = {true},
 }
 
 
@@ -153,7 +158,6 @@
   editor = 	 {Ciccone, Marco and Stolovitzky, Gustavo and Albrecht, Jacob},
   volume = 	 {220},
   series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {28 Nov--09 Dec},
   publisher =    {PMLR},
   abstract = 	 {Indigenous languages, including those from the Americas, have received very little attention from the machine learning (ML) and natural language processing (NLP) communities. To tackle the resulting lack of systems for these languages and the accompanying social inequalities affecting their speakers, we conduct the second AmericasNLP competition (and the first one in collaboration with NeurIPS), which is centered around speech-to-text translation systems for Indigenous languages of the Americas. The competition features three tasks – (1) automatic speech recognition, (2) text-based machine translation, and (3) speech-to-text translation – and two tracks: constrained and unconstrained. Five Indigenous languages are covered: Bribri, Guarani, Kotiria, Wa’ikhana, and Quechua. In this overview paper, we describe the tasks, tracks, and languages, introduce the baseline and participating systems, and end with a summary of ongoing and future challenges for the automatic translation of Indigenous languages.}
 }
@@ -166,11 +170,12 @@
       Gomez, Helena  and
       Bethard, Steven",
     booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
-    month = jun,
+    month = {June},
     year = "2024",
     address = "Mexico City, Mexico",
     publisher = "Association for Computational Linguistics",
     abstract = "Cross-lingual transfer can be achieved through two main approaches: zero-shot transfer or machine translation (MT). While the former has been the dominant approach, both have been shown to be competitive. In this work, we compare the current performance and long-term viability of these methods. We leverage lexical gaps to create a multilingual question answering dataset, which provides a difficult domain for evaluation. Both approaches struggle in this setting, though zero-shot transfer performs better, as current MT outputs are not specific enough for the task. Using oracle translation offers the best performance, showing that this approach can perform well long-term, however current MT quality is a bottleneck. We also conduct an exploratory study to see if humans produce translations sufficient for the task with only general instructions. We find this to be true for the majority of translators, but not all. This indicates that while translation has the potential to outperform zero-shot approaches, creating MT models that generate accurate task-specific translations may not be straightforward.",
+      selected = {true},
 }
 
 @inproceedings{ebrahimi-etal-2024-findings,
@@ -194,7 +199,7 @@
       Pugh, Robert  and
       von der Wense, Katharina",
     booktitle = "Proceedings of the 4th Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP 2024)",
-    month = jun,
+    month = {June},
     year = "2024",
     address = "Mexico City, Mexico",
     publisher = "Association for Computational Linguistics",
@@ -226,7 +231,7 @@
       Pugh, Robert  and
       von der Wense, Katharina",
     booktitle = "Proceedings of the 4th Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP 2024)",
-    month = jun,
+    month = {June},
     year = "2024",
     address = "Mexico City, Mexico",
     publisher = "Association for Computational Linguistics",
@@ -240,6 +245,8 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL},
 publisher = {Preprint.}
+    selected = {true},
+    booktitle={arXiv.},
 }
 
 @inproceedings{church2024academicarticlerecommendationusing,
@@ -248,7 +255,8 @@ publisher = {Preprint.}
       year={2024},
       archivePrefix={arXiv},
       primaryClass={cs.IR},
-publisher = {Preprint.}
+publisher = {Preprint.},
+booktitle={arXiv.},
 }
 
 @article{kann-americasnli,
