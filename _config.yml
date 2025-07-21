@@ -260,6 +260,8 @@ terser:
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
+cv_pdf: cv_7_20_2025.pdf
+
 scholar:
   last_name: [Ebrahimi]
   first_name: [Abteen]
