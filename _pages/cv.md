@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/cv_7_20_2025.pdf
+permalink: /assets/pdf/cv_7_20_25.pdf
 title: cv
 nav: true
 nav_order: 5
