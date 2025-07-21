@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: University of Colorado Boulder
+nav_order: 1
 
 profile:
   align: right
