@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/cv_ebrahimi.pdf
+permalink: /assets/pdf/ebrahimi_cv.pdf
 title: cv
 nav: true
 nav_order: 5
