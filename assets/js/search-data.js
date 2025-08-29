@@ -35,16 +35,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-our-paper-model-based-ranking-of-source-languages-for-zero-shot-cross-lingual-transfer-was-accepted-to-emnlp-2025",
+          title: 'Our paper, Model-Based Ranking of Source Languages for Zero-Shot Cross-Lingual Transfer was accepted...',
           description: "",
           section: "News",},{
         id: 'social-linkedin',
