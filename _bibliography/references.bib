@@ -274,7 +274,6 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL},
 publisher = {Preprint.},
-    selected = {true},
     booktitle={arXiv.},
     arxiv={2403.18251},
     code={https://github.com/abteen/xsci}
@@ -347,4 +346,27 @@ ISSN={2624-8212},
     pages = "134--152",
     ISBN = "979-8-89176-236-7",
     abstract = "This paper presents the findings of the AmericasNLP 2025 Shared Tasks: (1) machine translation for truly low-resource languages, (2) morphological adaptation for generating educational examples, and (3) developing metrics for machine translation in Indigenous languages. The shared tasks cover 14 diverse Indigenous languages of the Americas. A total of 11 teams participated, submitting 26 systems across all tasks, languages, and models. We describe the shared tasks, introduce the datasets and evaluation metrics used, summarize the baselines and submitted systems, and report our findings."
+}
+
+@inproceedings{ebrahimi-etal-2025-model,
+    title = "Model-Based Ranking of Source Languages for Zero-Shot Cross-Lingual Transfer",
+    author = "Ebrahimi, Abteen  and
+      Wiemerslage, Adam  and
+      von der Wense, Katharina",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2025.emnlp-main.1650/",
+    doi = "10.18653/v1/2025.emnlp-main.1650",
+    pages = "32416--32461",
+    ISBN = "979-8-89176-332-6",
+    code = "https://github.com/abteen/nn-rank",
+    selected = "true",
+    abstract = "We present NN-Rank, an algorithm for ranking source languages for cross-lingual transfer, which leverages hidden representations from multilingual models and unlabeled target-language data. We experiment with two pretrained multilingual models and two tasks: part-of-speech tagging (POS) and named entity recognition (NER). We consider 51 source languages and evaluate on 56 and 72 target languages for POS and NER, respectively. When using in-domain data, NN-Rank beats state-of-the-art baselines that leverage lexical and linguistic features, with average improvements of up to 35.56 NDCG for POS and 18.14 NDCG for NER. As prior approaches can fall back to language-level features if target language data is not available, we show that NN-Rank remains competitive using only the Bible, an out-of-domain corpus available for a large number of languages. Ablations on the amount of unlabeled target data show that, for subsets consisting of as few as 25 examples, NN-Rank produces high-quality rankings which achieve 92.8{\%} of the NDCG achieved using all available target data for ranking."
 }
