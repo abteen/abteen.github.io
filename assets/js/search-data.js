@@ -38,6 +38,9 @@ ninja.data = [{
             },},{id: "news-our-paper-model-based-ranking-of-source-languages-for-zero-shot-cross-lingual-transfer-was-accepted-to-emnlp-2025",
           title: 'Our paper, Model-Based Ranking of Source Languages for Zero-Shot Cross-Lingual Transfer was accepted...',
           description: "",
+          section: "News",},{id: "news-i-have-successfully-defended-my-dissertation-and-will-graduate-in-may-2026-i-am-actively-looking-for-postdoc-and-industry-opportunities-please-reach-out-if-you-know-of-any-openings-which-would-be-a-good-fit",
+          title: 'I have successfully defended my dissertation and will graduate in May 2026. I...',
+          description: "",
           section: "News",},{
         id: 'social-linkedin',
         title: 'LinkedIn',
